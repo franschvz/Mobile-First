@@ -10,7 +10,7 @@
     --bitcoin-orange: #F7931A;
     --soft-orange: #FFE9D5;
     --secondary-blue: #1A9AF7;
-    --sofr-blue: #E7F5FF;
+    --soft-blue: #E7F5FF;
     --warm-black: #201E1C; 
     --black: #282623; 
     --grey: #BABABA;
@@ -215,6 +215,74 @@ main {
     border-radius: 8px;
 }
 .currency-table--date p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: var(--warm-black)
+}
+.main-comission-table {
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+}
+.main-comission-table .comission-table--title {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--secondary-blue);
+}
+.comission-table--container {
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+}
+.comission-table--container table {
+    width: 100%;
+    height: 100%
+}
+.comission-table--container td {
+    width: 50%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    color: var(--grey);
+    background-color: var(--just-white);
+}
+.comission-table--container .table__top-left {
+   border-radius: 15px 0 0 0;
+}
+.comission-table--container .table__top-right {
+    border-radius: 0 15px 0 0;
+}
+.comission-table--container .table__bottom-left {
+    border-radius: 0 0 0 15px;
+}
+.comission-table--container .table__bottom-right {
+    border-radius: 0 0 15px 0;
+}
+.comission-table--container .table__right {
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.7rem;
+    color: #757575;
+}
+
+.comission-table--date {
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft-blue);
+    border-radius: 8px;
+}
+.comission-table--date p {
     font-size: 1.2rem;
     font-weight: 300;
     line-height: 1.5rem;
