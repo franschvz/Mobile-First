@@ -445,6 +445,19 @@ main {
     border-radius: 15px;
     box-shadow: 0 4px 8px rgb(89, 73, 30, 0.16);
 }
+
+.basic {
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    padding: 6px;
+    top: -15px;
+    left: calc(50% - 60px);
+    font-size: 1.2rem;
+    background-color: var(--secondary-blue);
+    border-radius: 8px;
+    color: var(--just-white); 
+}
 .recommended {
     position: absolute;
     width: 120px;
@@ -454,6 +467,18 @@ main {
     left: calc(50% - 60px);
     font-size: 1.2rem;
     background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+    color: var(--just-white); 
+}
+.expert {
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    padding: 6px;
+    top: -15px;
+    left: calc(50% - 60px);
+    font-size: 1.2rem;
+    background-color: var(--secondary-blue);
     border-radius: 8px;
     color: var(--just-white); 
 }
