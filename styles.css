@@ -138,8 +138,15 @@ main {
     min-width: 235px;
     max-width: 500px;
     height: 360px;
-    margin: 0 auto;
+    margin: 0 10px auto;
     font-family: "Inter", sans-serif;
+    scroll-snap-align: center;
+}
+.main-table-container--slider {
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
 }
 .main-currency-table .currency-table--title {
     margin-bottom: 15px;
@@ -227,6 +234,7 @@ main {
     height: 360px;
     margin: 0 auto;
     font-family: "Inter", sans-serif;
+    scroll-snap-align: center;
 }
 .main-comission-table .comission-table--title {
     margin-bottom: 15px;
