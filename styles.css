@@ -248,7 +248,9 @@ main {
     min-width: 230px;
     max-width: 300px;
     height: 250px;
-    margin: 0 auto;
+    margin:0 auto;
+    padding-right: 30px;
+    
 }
 .comission-table--container table {
     width: 100%;
